@@ -1,0 +1,166 @@
+.detail_main_container{
+    background-image: url('../Images/milky-way.jpg');
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.detail_conatainer {
+    width: 70%;
+    height: 820px;
+    border: #ffe81f solid 2px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+}
+   
+.detail_conatainer > h1 , p {
+    color: #ffe81f
+}
+
+.button_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+   }
+
+   .rent-btn {
+    padding: 2%;
+    background-color:#2FF923;
+    border-style: none;
+    color: black;
+    width: 40%;
+    cursor: pointer;
+
+   }
+   .rent-btn:hover{
+    transform: scale(1.1)
+   }
+
+   .cancel-btn {
+    background:#990000;
+    color: black;
+    border-style: none;
+    padding: 2%;
+    width: 40%;
+    cursor: pointer;
+   }
+   .cancel-btn:hover{
+    transform: scale(1.1)
+   }
+   
+   .back-btn-box {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .back-btn {
+    padding: 18%;
+    width: 121px;
+    background: black;
+    border-style: none;
+    cursor: pointer;
+}
+.back-btn:hover{
+    text-decoration: underline #ffe81f
+}
+
+   a{
+       text-decoration: none;
+       color: #ffe81f;
+   }
+
+.price{
+    color:#00BFFF
+}
+
+.no-rent{
+    color:#990000
+}
+.confirm-msg{
+    margin-top:2%;
+}
+.confirm-msg > p{
+    color: #2FF923;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.cancel-msg{
+    margin-top: 2%;
+}
+.cancel-msg > p {
+    color: #990000;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
+@media (max-width:767px){
+
+    .detail_main_container{
+        padding: 25% 0
+    }
+
+    .detail_conatainer{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+    .title-detail{
+        margin-left: 5%;
+    }
+    .detail_conatainer p {
+        margin-left: 10%;
+    }
+    .button_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2%;
+    }
+
+    .rent-btn{
+        width: 90%;
+        padding: 4%;
+        margin: 2%
+    }
+    .cancel-btn{
+        width: 90%;
+        padding: 4%;
+        margin: 2%
+    }
+    .back-btn{
+        padding: 20px 0
+    }
+}
+
+@media (max-width:768px){
+    .detail_main_container{
+        padding: 5%;
+    }
+    
+    .detail_conatainer{
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width:1024px){
+    .detail_main_container{
+        padding: 15% 5% 15% 5%;
+    }
+
+    .detail_conatainer{
+        width: 100%;
+    }
+}

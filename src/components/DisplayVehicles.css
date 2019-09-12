@@ -1,0 +1,78 @@
+.main_container {
+    padding:  5%  5%;
+    display:  flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url('../Images/milky-way.jpg');
+    padding-top: 150px;
+   
+}
+
+.container{
+    width: 40%;
+    height: 300px;
+    border: #ffe81f 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    margin: 3%;
+ 
+}
+
+
+.container > h1 , p {
+    color: #ffe81f;
+}
+
+.btn-detail{
+    background-color:#00BFFF;
+    border-style: none;
+    padding : 3%;
+    color: black;
+    cursor: pointer;
+}
+   
+
+@media (max-width:767px){
+
+    .main_container{
+        padding: 25% 0%;
+    }
+
+    .container{
+        
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: inline-grid
+    }
+
+    p{
+        font-size: 13px;
+        max-width: 70%;
+    }
+    h1{
+        font-size: 18px;
+    }
+}
+   
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .btn-detail{
+        width: 50%;
+        padding: 2%;
+    }
+}
+
+@media (max-width:1024px){
+    .container{
+        width: 100%;
+    }
+    .btn-detail{
+        width: 50%;
+        padding: 2%;
+    }
+}

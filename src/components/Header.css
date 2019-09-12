@@ -1,0 +1,49 @@
+.header{
+    background-color: black;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    color: #ffe81f
+}
+
+.header > img , a{
+    width: 40px;
+    height: 40px;
+    padding: 5%;
+    cursor: pointer;
+    margin: 0;
+}
+
+.header > a:nth-child(1) > img:nth-child(1) {
+    width: 40px;
+    padding-left: 5%
+
+   }
+
+.box-shop > img {
+    width: 40px;
+    height: 40px;
+}
+
+.box-shop {
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+    cursor: pointer;
+}
+   
+.total-cost{
+    padding-right: 20px;
+    color: #00BFFF
+}
+
+.total-rent{
+    padding: 10px;
+    color:#00BFFF
+}
